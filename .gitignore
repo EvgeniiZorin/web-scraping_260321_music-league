@@ -1,0 +1,6 @@
+
+# Chromedriver executable
+chromedriver*exe
+
+# Secret data
+project_secrets.py
