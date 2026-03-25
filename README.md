@@ -5,6 +5,7 @@ This is a small project that aimed at scraping the results of a league in Music 
 Music League is a website where you participate in submitting songs for a weekly thematic with other people, followed by voting and commenting the best song for each round. There you have leagues, which are groups of people that have their own rounds and submissions. 
 
 Process steps:
+- Create a file `project_secrets.py` and there, create a string for your email: `email_auth = 'your.email.here@email.com'`
 - Run `0_init.ipynb`;
 - Run `1_scrape.ipynb` (an overview of this process can be seen in `scraping_demo.mp4`). Scraped data is saved to `output/1_scraped_data`;
 - Run `2_data_proc.ipynb` to process the scraped data. The final processed data is saved to `output/2_processed_data/260321_proc_data_3.xlsx`.
